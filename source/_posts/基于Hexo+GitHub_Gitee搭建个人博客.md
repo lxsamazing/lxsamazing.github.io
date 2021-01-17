@@ -1,17 +1,11 @@
 ﻿---
 title: 基于Hexo+GitHub_Gitee搭建个人博客
 tag: Hexo GitHub Gitee Blog
-categories: PersonalBlog #分类在sakura显示才能查看
-comment: true
-description: 本文记录搭建博客的过程、期间遇到的问题及solution。
-photos: https://i.loli.net/2021/01/16/RmgCKvpjd1Fwtf8.png
+categories: PersonalBlog 
 ---
 
 >自由和山巅上的空气相似，对弱者都是吃不消的。
     <p align="right">——芥川龙之介 《侏儒的话》。</p>
-
-@[TOC](基于Hexo+Github/Gitee搭建个人博客)
-
 
 <hr>
 
