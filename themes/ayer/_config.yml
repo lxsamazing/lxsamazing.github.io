@@ -30,7 +30,7 @@ logo: /images/ayer-side.svg
 # enable-是否启用封面；path-封面背景图；logo-封面logo
 cover:
   enable: true
-  path: /images/cover1.jpg # /source/images目录下附送多张美图，可更换
+  path: /images/cover5.jpg # /source/images目录下附送多张美图，可更换
   logo: false #/images/ayer.svg，如果不要直接设置成false
 
 # 页面顶部进度条
@@ -46,7 +46,7 @@ broadcast:
 # 文章太长，截断按钮文字(在需要截断的行增加此标记：<!--more-->)
 excerpt_link: 阅读更多...
 # 如果你嫌每篇文章手动加more标记比较麻烦，又不想在首页全文显示，可以把excerpt_all设置成true，这样首页只会显示文章归档
-excerpt_all: false
+excerpt_all: true
 
 # 是否开启代码复制按钮
 copy_btn: true
@@ -104,7 +104,7 @@ rss: /atom.xml
 darkmode: true
 
 # 动态背景效果: 0-关闭，1-动态线条(跟随鼠标)
-canvas_bg: 0
+canvas_bg: 1
 
 # 自定义鼠标样式，直接替换/images/mouse.cur文件
 mouse:
@@ -112,7 +112,7 @@ mouse:
   path: /images/mouse.cur
 
 # 鼠标点击效果：0-关闭，1-爱心，2-爆炸烟花，3-粒子烟花
-click_effect: 0
+click_effect: 3
 
 # 页面宽度自定义（不建议修改，可能造成布局混乱），article_width文章宽度，sidebar_width侧边栏宽度
 layout:
