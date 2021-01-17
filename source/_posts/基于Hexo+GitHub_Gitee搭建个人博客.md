@@ -1,6 +1,6 @@
 ﻿---
 title: 基于Hexo+GitHub_Gitee搭建个人博客
-tag: 
+tags: 
 	- Hexo
 	- GitHub
 	- Gitee
