@@ -1,7 +1,12 @@
 ﻿---
 title: 基于Hexo+GitHub_Gitee搭建个人博客
-tag: Hexo GitHub Gitee Blog
-categories: PersonalBlog 
+tag: 
+	- Hexo
+	- GitHub
+	- Gitee
+	- Blog
+categories: 
+	-PersonalBlog 
 ---
 
 >自由和山巅上的空气相似，对弱者都是吃不消的。
