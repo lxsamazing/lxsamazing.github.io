@@ -6,7 +6,7 @@ tag:
 	- Gitee
 	- Blog
 categories: 
-	-PersonalBlog 
+	- PersonalBlog 
 ---
 
 >自由和山巅上的空气相似，对弱者都是吃不消的。
