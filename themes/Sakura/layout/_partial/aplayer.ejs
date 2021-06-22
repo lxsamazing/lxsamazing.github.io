@@ -1,3 +1,4 @@
+<% if(theme.aplayer.enable){ %>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
 <!-- require MetingJS -->
@@ -32,6 +33,7 @@
 <% for (i in theme.aplayer) {%>
     <%- i %>="<%- theme.aplayer[i] %>"
 <% } %>
+>
 </meting-js>
 <script>
   $(function(){
@@ -44,3 +46,4 @@
     })
   });
 </script>
+<% } %>

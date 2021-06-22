@@ -1,7 +1,7 @@
 {
-  "name": "hexo-theme-jsimple",
+  "name": "hexo-theme-sakuraplus",
   "version": "0.0.2",
-  "description": "Simple three column theme for Hexo.Inspired by JianShu.com",
+  "description": "Hexo sakura theme personal beautification custom made by cungudafa",
   "license": "MIT",
   "dependencies": {
     "hexo-renderer-ejs": "^0.2.0",
@@ -9,20 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tangkunyin/hexo-theme-jsimple.git"
+    "url": "git+https://gitee.com/cungudafa/hexo-theme-sakuraplus.git"
   },
   "keywords": [
     "Simple",
-    "Three Column",
-    "Jian Shu",
+    "sakura",
+    "cungudafa",
     "Hexo"
   ],
   "bugs": {
-    "url": "https://github.com/tangkunyin/hexo-theme-jsimple/issues"
+    "url": "https://gitee.com/cungudafa/hexo-theme-sakuraplus/issues"
   },
   "author": {
-    "name": "tangsir",
-    "url": "https://www.tangkunyin.com",
-    "email": "iam@tangkunyin.com"
+    "name": "cungudafa",
+    "url": "https://www.cungudafa.top",
+    "email": "cungudafa@163.com"
   }
 }

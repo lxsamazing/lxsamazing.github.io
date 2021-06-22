@@ -1,14 +1,20 @@
 <header class="site-header no-select gizle sabit" role="banner">
   <div class="site-top">
     <div class="site-branding">
-      <span class="site-title">
-        <span class="logolink moe-mashiro">
-          <a href="/">
-            <span class="sakurasono"><%= theme.prefixName %></span>
-            <span class="shironeko"><%= theme.siteName %></span>
-          </a>
-        </span>
-      </span>
+        <span class="site-title">
+            <span class="logolink logo">
+                <a href="/">
+                    <ruby>
+                    <span class="sakuraso"><%- theme.logo.sakuraso %></span>
+                    <span class="no"><%- theme.logo.no %></span>
+                    <span class="shironeko"><%- theme.logo.shironeko %></span>
+                    <rp></rp>
+                    <rt class="logo"><%= theme.prefixName %></rt>
+                    <rp></rp>
+                    </ruby>
+                  </a>
+            </span>
+          </span>
     </div>
     <div class="searchbox search-form-submit">
       <i class="iconfont js-toggle-search iconsearch icon-search">

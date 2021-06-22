@@ -13,6 +13,11 @@
     <span class="cat-des">
       <p><%= __(en) %></p>
     </span>
+    <span class="post-meta-item-icon">
+      <i class="iconfont icon-attention"></i>
+    </span>
+    <span class="post-meta-item-text">本页共<span id="busuanzi_value_page_pv"> </span>次阅读
+    </span>
   </header>
 </div>
 <div id="content" class="site-content">
@@ -22,19 +27,8 @@
       <div class="clearer">
       </div>
     </main>
-    <!-- <% if (page.total > 1){ %>
-      <nav class="navigator">
-        <% var prev_text = __('prev');var next_text = __('next');%>
-        <%- paginator({
-          prev_text: prev_text,
-          next_text: next_text
-        }) %>
-      </nav>
-    <% } %> -->
     <% if (page.total > 1 && page.next_link){ %>
       <div id="pagination"><a href="<%- url_for(page.next_link) %>" class="">Previous</a></div>
     <% } %>
   </div>
 </div>
-
-<!-- <%- partial('_partial/category-archive', {pagination: config.category, index: true}) %> -->
